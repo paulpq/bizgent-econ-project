@@ -1,0 +1,63 @@
+User-agent: *
+Allow: /
+
+# Allow all main pages
+Allow: /index.html
+Allow: /index-ro.html
+Allow: /index-ru.html
+Allow: /index-en.html
+Allow: /services.html
+Allow: /services-ro.html
+Allow: /services-ru.html
+Allow: /use-cases.html
+Allow: /use-cases-ro.html
+Allow: /use-cases-ru.html
+Allow: /pricing.html
+Allow: /pricing-ro.html
+Allow: /pricing-ru.html
+Allow: /about.html
+Allow: /about-ro.html
+Allow: /about-ru.html
+Allow: /contact.html
+Allow: /contact-ro.html
+Allow: /contact-ru.html
+Allow: /partners.html
+Allow: /partners-ro.html
+Allow: /partners-ru.html
+Allow: /resources.html
+Allow: /resources-ro.html
+Allow: /resources-ru.html
+Allow: /privacy-policy.html
+Allow: /privacy-policy-ro.html
+Allow: /privacy-policy-ru.html
+Allow: /terms-conditions.html
+Allow: /terms-conditions-ro.html
+Allow: /terms-conditions-ru.html
+
+# Allow CSS and JS files
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Block access to unnecessary files and directories
+Disallow: /.vscode/
+Disallow: /.github/
+Disallow: /add-lang-fix.sh
+Disallow: /remove-pages.sh
+Disallow: /update-font-awesome.sh
+Disallow: /update-nav-icons.sh
+Disallow: /update-social-buttons.sh
+Disallow: /test-lang-switcher.html
+Disallow: /lang-fix.js
+
+# Block access to hidden files
+Disallow: /.*
+Disallow: /*.log$
+Disallow: /*.tmp$
+Disallow: /*.bak$
+
+# Sitemap location
+Sitemap: https://bizgent.com/sitemap.xml
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1 
